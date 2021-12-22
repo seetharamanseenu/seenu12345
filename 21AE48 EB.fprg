@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Exam"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-12-04 01:51:34 PM"/>
+        <attribute name="created" value="RXhhbTtERVNLVE9QLUVIQkYzODY7MjAyMS0xMS0yMDsxMToyNjoyMSBBTTsyNjY3"/>
+        <attribute name="edited" value="RXhhbTtERVNLVE9QLUVIQkYzODY7MjAyMS0xMi0wNDswMTo1MTozNCBQTTsyOzI3OTU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A" type="Integer" array="False" size=""/>
+            <output expression="&quot;THE NUMBER OF UNITS&quot;" newline="True"/>
+            <input variable="A"/>
+            <declare name="B" type="Integer" array="False" size=""/>
+            <if expression="A&lt;=100">
+                <then>
+                    <assign variable="B" expression="0"/>
+                </then>
+                <else>
+                    <if expression="A&lt;=200">
+                        <then>
+                            <assign variable="B" expression="A*2"/>
+                        </then>
+                        <else>
+                            <assign variable="B" expression="A*3"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <output expression="&quot;THE AMOUNT SHOULD BE PAID IS&quot;&amp;B" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
